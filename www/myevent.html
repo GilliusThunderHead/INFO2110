@@ -1,0 +1,33 @@
+ <!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="UTF-8">	
+	<title>Event Management System</title> 
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="./jquery.mobile-1.2.1.min.css" />
+	<script src="./jquery-1.8.3.min.js"></script>
+	<script src="./jquery.mobile-1.2.1.min.js"></script>
+</head> 
+<body>
+	<div data-role="page">
+		<div data-role="header">
+			<a rel="external" href="main.html" data-icon="arrow-l" class="ui-btn-left">Back</a>
+			<h1>My Event</h1>
+		</div>
+
+		<ul data-role="listview" data-inset="true">
+			<li>
+				<a href="#">
+					<img src="img/consultation.jpg">
+					<h2><b>Consultation:</b></h2>
+				</a>
+				<a rel="external" href="#delete" data-rel="dialog" data-transition="pop" data-icon="minus">Cancel Booking</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
