@@ -14,34 +14,34 @@
 </head> 
 <body> 
 	<div data-role="header">
-		<h1>Register</h1>
-			
-	</div> 
+		<a rel="external" href="main.html" data-icon="arrow-l" class="ui-btn-left">Back</a>
+		<h1>Search Events</h1>
+		</div>
+		
 	<a href = "main.html">
 	<div style="background-image:url('img/event.jpg');height:170px;color:black;font-size:20px;text-align:center;">
 	</div>
 	</a>
+	
+	<form>
+     <label for="search-1">Search:</label>
+     <input type="search" name="search-1" id="search-1" value="">
 
-	<div data-role="content">
-
-		<p></p>
-		<label for="username">Username:</label>
-		<input id="username" type="text"></input>
-		<br>
-		<label for="email">Email:</label>
-		<input id="email" type="text"></input>
-		<br>
-		<label for="Password">Password:</label>
-		<input id="Password" type="text"></input>
-		<br>
-		<label for="Re-Enter">Re-Enter Password:</label>
-		<input id="Re-Enter" type="text"></input>
-
-
-
-		<ul data-role="listview" data-inset="true" >
-			<li><a rel="external" href="main.html" data-transition="slidedown"> <h3>Register</h3></a></li>
-		</ul>
+<style>
+div{
+text-align:center;
+color:blue;
+}
+</style>
+	<a href = "searchResults.html">
+	<div class = "wrapper">
+	<input type="button" data-inline="true" value="Search">
 	</div>
-</body>
+	<a>
+
+	</form>
+	
+	
+	
+	</body>
 </html>
